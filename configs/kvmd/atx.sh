@@ -8,6 +8,9 @@ case $ATX in
     USBRELAY_HID)
     sudo /etc/kvmd/custom_atx/usbrelay_hid.sh $1
     ;;
+    USBRELAY)
+    sudo /etc/kvmd/custom_atx/usbrelay.sh $1
+    ;;
     *)
     echo "No thing."
     exit -1
